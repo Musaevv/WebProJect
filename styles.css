@@ -1,0 +1,178 @@
+body{
+  margin: 0 auto;
+  width: 1280px;
+}
+.header{
+  height: 745px;
+  background: url(img/Color\ Fill\ 1.png);
+  background-repeat: no-repeat;
+}
+.navigation__item{
+  list-style: none;
+  padding: 100px 310px 100px 350px;
+
+}
+.navigation__list{
+  display: inline;
+  padding: 100px 65px 100px 0px;
+}
+.nav-links{
+  font-size: 18px;
+  color: white;
+  border-bottom: 4px solid #16a085;
+  text-decoration: none;
+}
+.nav-links:hover{
+  color: #16a085;
+}
+.nav-link{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: #16a085
+}
+.QUATE{
+  text-transform: uppercase;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 185px;
+}
+.subtitle__text{
+  text-align: center;
+  margin-top: 34px;
+  color: white;
+  font-size: 18px;
+}
+.subtitle__text span{
+  display: inline;
+  position: relative;
+}
+.subtitle__text span:before,
+.subtitle__text span:after{
+  content: "";
+  position: absolute;
+  border-top: 2px solid white;
+  top: 10px;
+  width: 320px;
+ 
+}
+.subtitle__text span:before{
+  right: 100%;
+  margin-right: 37px;
+}
+.subtitle__text span:after{
+  left: 100%;
+  margin-left: 37px;
+}
+.sitebar_button:hover .button__arrow{
+  background:#16a085;
+  color:white;
+}
+.sitebar_button{
+  margin-left: 545px;
+  padding-left: 17px;
+  background-color: #16a085;
+  color: white;
+  width: 190px;
+  height: 57px;
+  font-size: 16px;
+  border: #16a085;
+  margin-top: 50px;
+}
+.sitebar_button:hover{
+  color:#16a085;
+  background: white;
+}
+.button__arrow{
+  margin-left: 35px;
+  width: 32px;
+  height: 32px;
+  background: white;
+  color: #16a085;
+  border-radius: 50%;
+  vertical-align: middle;
+  font-size: 31px;
+}
+.button__arrow:hover{
+  color: white;
+  background: #16a085;
+}
+.links{
+  margin: 40px 577px 23px 577px;
+}
+.header__links{
+  color: white;
+  width: 28px;
+  height: 20px;
+  text-align: center;
+}
+.header__links:hover{
+  color: #16a085;
+}
+.photoapp{
+  height: 500px;
+  background-image: url(img/back-photoapp.png)
+}
+.photoapp_content{
+  float: left;
+  width: 340px;
+  padding: 44px 0px 0px 205px;
+}
+.photoapp_quate{
+  color: #16a085;
+  font-size: 25px
+}
+.photoapp_text{
+  font-size: 15px;
+  color: #3a3838
+}
+.photo_button:hover .button__arrow{
+  background: #16a085;
+  color: white;
+}
+.photo_button{
+  background-color: #16a085;
+  color: white;
+  width: 190px;
+  height: 57px;
+  font-size: 16px;
+  border: #16a085;
+  margin-top: 15px;
+  padding-left: 17px;
+}
+.photo_button:hover{
+  color: #16a085;
+  background: white;
+}
+.iphone{
+  float: right;
+  padding: 44px 240px 0px 0px;
+}
+.overview{
+  height: 550px;
+  padding-top: 20px;
+}
+.overview_img{
+  float: left;
+  width: 340px;
+  padding: 75px 0px 0px 235px;
+}
+.overview_content{
+  float: right;
+  width: 340px;
+  padding: 56px 195px 0px 0px;
+
+}
+.overview_quate{
+  color: #16a085;
+  font-size: 25px
+}
+.overview_text{
+  font-size: 15px;
+  color: #3a3838;
+  width: 330px;
+}
